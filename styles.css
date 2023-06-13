@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Dreaming Outloud Pro', cursive;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  a {
+    color: #000;
+  }
+  
+  a:hover {
+    color: #5090ff;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-family: 'Dreaming Outloud Pro', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  h2 {
+    font-family: 'Dreaming Outloud Pro', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  table th {
+    font-weight: bold;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 18px;
+    background-color: #bebebe;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #e5e3e3;
+  }
+
+  .caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%; 
+    border: #333 1px solid;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  ol li {
+    text-align: left;
+  }
+  
+  form {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%; 
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    max-width: 50%; 
+    margin: 0 auto;
+  }
+  
+  input,
+  select {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+select:hover {
+    cursor: pointer;
+}
+
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    color: #8ab4fd;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    nav ul li a {
+      font-size: 16px;
+    }
+    table th,
+    table td {
+        padding: 8px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    table th,
+    table td {
+      padding: 6px;
+      font-size: 14px;
+    }
+  
+    input,
+    select {
+      padding: 6px;
+      font-size: 14px;
+    }
+  
+    input[type="submit"] {
+      padding: 6px;
+      font-size: 14px;
+    }
+}
+  

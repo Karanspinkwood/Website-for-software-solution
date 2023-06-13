@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/png" href="logo.png">
+  <title>roboSolutions - Careers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1><img src="logo.png" alt="roboSolutions logo"> Register</h1>
+    <nav>
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="customers.html">Our Customers</a></li>
+        <li><a href="fields.html">Our Fields</a></li>
+        <li><a href="careers.html">Careers</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form>
+    <label for="fullName">Full Name</label><br>
+    <input type="text" id="fullName" name="fullName" pattern=".{8,}" placeholder="Enter your full name" required>
+    <br><br><br><br>
+
+    <label for="experience">Experience</label><br>
+    <input type="number" id="experience" name="experience" placeholder="Enter your experience" required>
+    <br><br><br><br>
+
+    <label for="vacancies">Vacancies</label><br>
+    <select id="vacancies" name="vacancies" required>
+      <option value="androidDeveloper">Android Developer</option>
+      <option value="fullStackDeveloper">Full Stack Developer</option>
+      <option value="consultant">Consultant</option>
+      <option value="researchAndDevelopment">Research and Development</option>
+    </select>
+    <br><br><br><br>
+
+    <label for="jobType">Job Type</label><br>
+    <select id="jobType" name="jobType" required>
+      <option value="fullTime">Full-time</option>
+      <option value="partTime">Part-time</option>
+      <option value="freelancer">Freelancer</option>
+      <option value="internship">Internship</option>
+    </select>
+    <br><br><br><br>
+
+    <input type="submit" value="Apply">
+  </form>
+</body>
+</html>
